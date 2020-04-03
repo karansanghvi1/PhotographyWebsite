@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Karan Sanghvi</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <!-- CSS Style Sheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/606c060a17.js" crossorigin="anonymous"></script>
+
+  <!-- Boot strap scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#title">The Amatuer Photographer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Here is a peek-a-boo into my gallery.</h1>
+          <button type="button" class="btn btn-outline-dark btn-lg download-button"><i class="fas fa-file-pdf"></i> Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/Camera.png" alt="Camera">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+  <section id="features">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-mountain fa-3x"></i>
+          <h3>Landscapes</h3>
+          <p>A sucker for good views and nature.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-portrait fa-3x"></i>
+          <h3>Portraits</h3>
+          <p>Mostly shot on phone.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-magic fa-3x"></i>
+          <h3>Abstracts</h3>
+          <p>Anything I find interesting on a daily basis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Gallery -->
+
+  <section id="gallery">
+
+    <div id="gallery-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2>Being a photographer requires some creativity as well and how you tell your story behind every picture.
+          </h2>
+          <img class="gallery1" src="images/Landscapes.jpg" alt="Landscapes">
+          <p>Bangalore, India<p>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2>Was at the park taking a stroll and noticed these 2 playing in their own world. Dogs do make good portraits don't they?</h2>
+          <img class="dog1" src="images/Dogs.JPG" alt="dogs">
+          <p>Bangalore,India<p>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2>In this age of industrializtion and technology, nature is something that can only be preserved in a jar.
+          </h2>
+          <img class="nature" src="images/Abstract.jpeg" alt="Nature">
+          <p>Bangalore,India</p>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#gallery-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#gallery-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Behind the scenes -->
+
+  <section id="backstage">
+  <div class="container-fluid">
+      
+    <h2>About the photographer</h2>
+    <div class="row">
+      <div class="backstage-box col-lg-6">
+        
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/Me.jpg" alt="Profile picture">
+          <div class="card-body">
+            <p class="card-text"><h3>Karan Sanghvi</h3></p>
+            <p>Apart from photography, I'm into gaming and football.</p>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class="backstage-box col-lg-6">
+
+        <div class="card" style="width: 25rem;">
+          <img class="gear card-img-top" src="images/Gear.jpg" alt="Equipment">
+          <div class="card-body">
+            <p class="card-text"><h3>My gear</h3></p>
+            <p>Keep it minimalistic.</p>
+          </div>
+        </div>
+
+      </div>
+      
+
+      
+
+    </div>
+    
+  </div>
+
+  </section>
+
+
+  <!-- Contact  -->
+
+  <section id="contactinfo">
+    <div class="container-fluid">
+      
+
+    <h2 class="contact-heading">Hit me up for cool photoshoots.</h2>
+    <div class="socialmedia">
+    
+      <a  href="https://www.instagram.com/karan.sanghvi1/"><i class="icon1 fab fa-instagram fa-2x"></i></a>
+      <a  href="https://www.facebook.com/ekaran.sanghvi"><i class="icon1 fab fa-facebook fa-2x"></i></a>
+      <a href="https://twitter.com/karan_sanghvi1"><i class="icon1 fab fa-twitter fa-2x"></i></a>
+    
+    </div>
+    
+  </div>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Copyright 2020 The Amatuer Photographer</p>
+
+  </footer>
+
+
+</body>
+
+</html>
